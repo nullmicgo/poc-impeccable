@@ -1,0 +1,112 @@
+[
+  {
+    "antipattern": "side-tab",
+    "name": "Side-tab accent border",
+    "description": "Thick colored border on one side of a card — the most recognizable tell of AI-generated UIs. Use a subtler accent or remove it entirely.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\nullm\\HarnessAgents\\gittrend\\pocs\\impeccable\\sample\\index.html",
+    "line": 0,
+    "snippet": "border-left: 6px + border-radius: 16px"
+  },
+  {
+    "antipattern": "side-tab",
+    "name": "Side-tab accent border",
+    "description": "Thick colored border on one side of a card — the most recognizable tell of AI-generated UIs. Use a subtler accent or remove it entirely.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\nullm\\HarnessAgents\\gittrend\\pocs\\impeccable\\sample\\index.html",
+    "line": 0,
+    "snippet": "border-left: 6px + border-radius: 16px"
+  },
+  {
+    "antipattern": "low-contrast",
+    "name": "Low contrast text",
+    "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "C:\\Users\\nullm\\HarnessAgents\\gittrend\\pocs\\impeccable\\sample\\index.html",
+    "line": 0,
+    "snippet": "3.3:1 (need 4.5:1) — text #8a8578 on #f7f1e6"
+  },
+  {
+    "antipattern": "gradient-text",
+    "name": "Gradient text",
+    "description": "Gradient text is decorative rather than meaningful — a common AI tell, especially on headings and metrics. Use solid colors for text.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\nullm\\HarnessAgents\\gittrend\\pocs\\impeccable\\sample\\index.html",
+    "line": 0,
+    "snippet": "background-clip: text + gradient"
+  },
+  {
+    "antipattern": "hero-eyebrow-chip",
+    "name": "Hero eyebrow / pill chip",
+    "description": "A tiny uppercase letter-spaced label sitting immediately above an oversized hero headline — or the same shape rendered as a pill chip — is now the default AI SaaS hero. Drop the eyebrow, integrate the kicker into the headline, or run it as a navigation breadcrumb instead.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\nullm\\HarnessAgents\\gittrend\\pocs\\impeccable\\sample\\index.html",
+    "line": 0,
+    "snippet": "eyebrow chip (tracked-caps) \"Introducing\" above h1 \"Build faster without the noise\""
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\nullm\\HarnessAgents\\gittrend\\pocs\\impeccable\\sample\\index.html",
+    "line": 0,
+    "snippet": "Primary font: inter"
+  },
+  {
+    "antipattern": "nested-cards",
+    "name": "Nested cards",
+    "description": "Cards inside cards create visual noise and excessive depth. Flatten the hierarchy — use spacing, typography, and dividers instead of nesting containers.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\nullm\\HarnessAgents\\gittrend\\pocs\\impeccable\\sample\\index.html",
+    "line": 0,
+    "snippet": "Card inside card (div)"
+  },
+  {
+    "antipattern": "cream-palette",
+    "name": "Cream / beige palette",
+    "description": "A warm cream or beige page background has become the default \"tasteful\" AI surface, reached for by reflex. Choose a background that comes from a deliberate palette, not the safe warm off-white.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\nullm\\HarnessAgents\\gittrend\\pocs\\impeccable\\sample\\index.html",
+    "line": 0,
+    "snippet": "cream/beige page background rgb(247, 241, 230)"
+  },
+  {
+    "antipattern": "gradient-text",
+    "name": "Gradient text",
+    "description": "Gradient text is decorative rather than meaningful — a common AI tell, especially on headings and metrics. Use solid colors for text.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\nullm\\HarnessAgents\\gittrend\\pocs\\impeccable\\sample\\index.html",
+    "line": 0,
+    "snippet": "background-clip: text + gradient"
+  },
+  {
+    "antipattern": "pulsing-dot",
+    "name": "Pulsing status dot",
+    "description": "Small pulsing status dots simulate liveness decoratively. Reserve pulse animation for indicators tied to genuinely live, changing data; a static indicator with clear labeling is honest and calmer.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\nullm\\HarnessAgents\\gittrend\\pocs\\impeccable\\sample\\index.html",
+    "line": 0,
+    "snippet": ".dot — 10x10px dot with infinite \"pulse\" animation"
+  },
+  {
+    "antipattern": "marketing-buzzword",
+    "name": "Marketing buzzword",
+    "description": "Generic SaaS phrases (streamline / empower / supercharge / world-class / enterprise-grade / next-generation / cutting-edge / etc) are instant AI tells. Pick a specific verb and noun that says what the product literally does.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\nullm\\HarnessAgents\\gittrend\\pocs\\impeccable\\sample\\index.html",
+    "line": 0,
+    "snippet": "1 buzzword phrase: \"Seamlessly unleash your workflow wi\""
+  }
+]
