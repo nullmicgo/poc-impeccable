@@ -2,3 +2,5 @@
 server.err
 server.out
 local-serverless-test.js
+
+.vercel

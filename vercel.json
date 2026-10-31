@@ -1,13 +1,14 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
+  "outputDirectory": null,
   "functions": {
-    "api/index.js": {
+    "api/handler.js": {
       "maxDuration": 30,
-      "includeFiles": "node_modules/impeccable/{cli/**,skill/scripts/engine-checksums.txt,package.json}"
+      "includeFiles": "node_modules/{impeccable/cli/bin/**,impeccable/skill/scripts/engine-checksums.txt,impeccable/package.json,@impeccable/cli-linux-x64/**}"
     }
   },
   "rewrites": [
-    { "source": "/(.*)", "destination": "/api/index" }
+    { "source": "/(.*)", "destination": "/api/handler" }
   ]
 }
