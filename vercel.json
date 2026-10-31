@@ -1,16 +1,18 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "framework": null,
+  "version": 2,
   "public": false,
-  "buildCommand": "node scripts/bundle-engine.cjs && node scripts/build-vercel.cjs",
-  "outputDirectory": "public",
-  "functions": {
-    "api/handler.js": {
-      "maxDuration": 30,
-      "includeFiles": "node_modules/{impeccable/cli/bin/**,impeccable/skill/scripts/engine-checksums.txt,impeccable/package.json}"
+  "builds": [
+    {
+      "src": "api/index.js",
+      "use": "@vercel/node",
+      "config": {
+        "maxLambdaSize": "50mb",
+        "includeFiles": "node_modules/{impeccable/cli/bin/**,impeccable/skill/scripts/engine-checksums.txt,impeccable/package.json}"
+      }
     }
-  },
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/api/handler" }
+  ],
+  "routes": [
+    { "src": "/(?!api/index\\.js$).*", "dest": "/api/index.js" }
   ]
 }
