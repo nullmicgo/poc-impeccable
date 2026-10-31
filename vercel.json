@@ -2,11 +2,12 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
   "public": false,
+  "buildCommand": "node scripts/bundle-engine.cjs && node scripts/build-vercel.cjs",
   "outputDirectory": "public",
   "functions": {
     "api/handler.js": {
       "maxDuration": 30,
-      "includeFiles": "node_modules/{impeccable/cli/bin/**,impeccable/skill/scripts/engine-checksums.txt,impeccable/package.json,@impeccable/cli-linux-x64/**}"
+      "includeFiles": "node_modules/{impeccable/cli/bin/**,impeccable/skill/scripts/engine-checksums.txt,impeccable/package.json}"
     }
   },
   "rewrites": [
